@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    /* box-sizing: border-box; */
 }
 /* Mobile: 375px
 Desktop: 1440px  */
@@ -13,7 +15,115 @@ Desktop: 1440px  */
     --dark-grayish-blue: hsl(228, 12%, 48%);
 
 }
+.flex{
+    display: flex;
+    justify-content: center;
+}
 body{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream);
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border-radius: 0.5rem;
+    width: 500px;
+    margin: auto 0;
+}
+.fraunces{
+    font-family: 'Fraunces', serif;
+}
+
+.image{
+    max-width: 100%;
+
+}
+.info{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1.5rem 0 1.5rem;
+    background-color: white;
+    width: 500px;
+}
+.category{
+    color: var(--dark-grayish-blue);
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    
+}
+.heading{
+    /* color: var(--dark-cyan); */
+    font-size: 1.8rem;
+}
+.description{
+    color: var(--dark-grayish-blue)
+}
+.price{
+    color: var(--dark-cyan);
+    align-items: center;
+}
+.price > div{
+    margin: 0 0.3rem;
+}
+.main-price{
+    font-size: 2rem;
+    
+}
+.original-price{
+    
+    text-decoration: line-through;
+}
+.cart-button{
+    background-color: var(--dark-cyan);
+    color: white;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.cart-button img{
+    padding-right: 1rem;
+    size: 0.2rem;
+}
+.cart-button:hover {
+    cursor: pointer;
+}
+.attribution {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.image-mobile{
+    display: none;
+}
+@media screen and (max-width: 505px) {
+    .container{
+        flex-direction: column;
+        width: 375px;
+        justify-content: center;
+    }
+    .info{
+        padding: 0 2rem;
+    }
+    .image{
+        display: none;
+    }
+    .image-mobile{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        width: 375px;
+        height: 320px;
+    }
+    .cart-button{
+        width: 100%;
+        /* margin: 0 auto 1rem; */
+        padding: ;
+    }
+
 }
