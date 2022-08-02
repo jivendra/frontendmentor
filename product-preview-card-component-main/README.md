@@ -19,7 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jivendra/frontendmentor/tree/main/product-preview-card-component-main)
+- [Solution URL](https://github.com/jivendra/frontendmentor/tree/main/product-preview-card-component-main)
+- [Live site URL](https://7de9d34c.product-preview-card-component-jivendra.pages.dev/)
 
 ## My process
 
