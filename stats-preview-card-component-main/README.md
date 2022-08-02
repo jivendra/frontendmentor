@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/jivendra/frontendmentor/tree/main/stats-preview-card-component-main)
+- [Live Site URL](https://stats-preview-card-jivendra.pages.dev/)
 
 ## My process
 
@@ -35,6 +35,6 @@ Users should be able to:
 ## Author
 
 - Website - [Jivendra Sah](https://jivendrasah.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jivendra)
-- Twitter - [@yourusername](https://twitter.com/jivendra_sah)
+- Frontend Mentor - [@jivendra](https://www.frontendmentor.io/profile/jivendra)
+- Twitter - [@jivendra_sah](https://twitter.com/jivendra_sah)
 
